@@ -1,0 +1,45 @@
+[0.081s] Invoking command in '/home/choi/robot_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake /home/choi/robot_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/gazebo_dev
+[0.528s] -- The C compiler identification is GNU 9.4.0
+[0.852s] -- The CXX compiler identification is GNU 9.4.0
+[0.927s] -- Check for working C compiler: /usr/bin/cc
+[1.056s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.057s] -- Detecting C compiler ABI info
+[1.172s] -- Detecting C compiler ABI info - done
+[1.186s] -- Detecting C compile features
+[1.186s] -- Detecting C compile features - done
+[1.189s] -- Check for working CXX compiler: /usr/bin/c++
+[1.274s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.275s] -- Detecting CXX compiler ABI info
+[1.374s] -- Detecting CXX compiler ABI info - done
+[1.386s] -- Detecting CXX compile features
+[1.386s] -- Detecting CXX compile features - done
+[1.441s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.582s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.582s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.882s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.043s] -- Configuring done
+[2.045s] -- Generating done
+[2.046s] -- Build files have been written to: /home/choi/robot_ws/build/gazebo_dev
+[2.051s] Invoked command in '/home/choi/robot_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake /home/choi/robot_ws/src/gazebo_ros_pkgs/gazebo_dev -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/gazebo_dev
+[2.053s] Invoking command in '/home/choi/robot_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --build /home/choi/robot_ws/build/gazebo_dev -- -j12 -l12
+[2.102s] Invoked command in '/home/choi/robot_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --build /home/choi/robot_ws/build/gazebo_dev -- -j12 -l12
+[2.131s] Invoking command in '/home/choi/robot_ws/build/gazebo_dev': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --install /home/choi/robot_ws/build/gazebo_dev
+[2.145s] -- Install configuration: ""
+[2.145s] -- Execute custom install script
+[2.146s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/ament_index/resource_index/package_run_dependencies/gazebo_dev
+[2.156s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/ament_index/resource_index/parent_prefix_path/gazebo_dev
+[2.165s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.sh
+[2.177s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/environment/ament_prefix_path.dsv
+[2.187s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/environment/path.sh
+[2.198s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/environment/path.dsv
+[2.207s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.bash
+[2.217s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.sh
+[2.227s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.zsh
+[2.238s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/local_setup.dsv
+[2.250s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/package.dsv
+[2.260s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/ament_index/resource_index/packages/gazebo_dev
+[2.271s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_dev-extras.cmake
+[2.281s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig.cmake
+[2.295s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/cmake/gazebo_devConfig-version.cmake
+[2.304s] -- Symlinking: /home/choi/robot_ws/install/gazebo_dev/share/gazebo_dev/package.xml
+[2.319s] Invoked command in '/home/choi/robot_ws/build/gazebo_dev' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --install /home/choi/robot_ws/build/gazebo_dev

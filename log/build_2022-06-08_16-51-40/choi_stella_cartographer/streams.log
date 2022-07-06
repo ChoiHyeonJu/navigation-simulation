@@ -1,0 +1,84 @@
+[0.025s] Invoking command in '/home/choi/robot_ws/build/choi_stella_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/robot_ws/install/opencv_tests:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --build /home/choi/robot_ws/build/choi_stella_cartographer -- -j12 -l12
+[0.176s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.258s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.504s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.580s] -- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.859s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.886s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.409s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.415s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.779s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.992s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.999s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.000s] -- Added test 'lint_cmake' to check CMake code style
+[2.001s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[2.005s] -- Added test 'xmllint' to check XML markup files
+[2.019s] -- Configuring done
+[2.084s] -- Generating done
+[2.086s] -- Build files have been written to: /home/choi/robot_ws/build/choi_stella_cartographer
+[2.125s] Invoked command in '/home/choi/robot_ws/build/choi_stella_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/robot_ws/install/opencv_tests:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --build /home/choi/robot_ws/build/choi_stella_cartographer -- -j12 -l12
+[2.194s] Invoking command in '/home/choi/robot_ws/build/choi_stella_cartographer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/robot_ws/install/opencv_tests:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --install /home/choi/robot_ws/build/choi_stella_cartographer
+[2.206s] -- Install configuration: ""
+[2.207s] -- Execute custom install script
+[2.208s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ST_cartographer.launch.py
+[2.208s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ST_gazebo_launch.py
+[2.208s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ST_localization.launch.py
+[2.208s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ST_navigation.launch.py
+[2.209s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ST_rviz_launch.py
+[2.209s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/bringup_launch.py
+[2.209s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ex_bringup.launch.py
+[2.209s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/localization_launch.py
+[2.209s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/nav2_navigation.launch.py
+[2.209s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/navigation_launch.py
+[2.210s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/occupancy_grid2.launch.py
+[2.210s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/slam_launch.py
+[2.210s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/stella_localization.launch.py
+[2.210s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/망/cartographer_stella.launch.py
+[2.210s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/망/stella_cartographer.launch.py
+[2.211s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/3obbject
+[2.211s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/3obbject.world
+[2.211s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/3object/model.config
+[2.212s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/3object/model.sdf
+[2.212s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/empty.world
+[2.212s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/neworld/model.config
+[2.212s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/neworld/model.sdf
+[2.212s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/worlds/newworld.world
+[2.213s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/models/CMakeLists.txt
+[2.213s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/models/ground_plane/model.config
+[2.213s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/models/ground_plane/model.sdf
+[2.213s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/models/sun/model.config
+[2.214s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/models/sun/model.sdf
+[2.214s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/meshes/hokuyo.dae
+[2.215s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/diffST_bot.gazebo
+[2.215s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/diffST_bot.urdf
+[2.215s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/diffST_bot.urdf.xacro
+[2.215s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/stella_bot.gazebo
+[2.215s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/stella_bot.urdf
+[2.215s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/stella_bot.xacro
+[2.216s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/urdf/stella_bot2.urdf
+[2.216s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/config/ekf.yaml
+[2.216s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/config/stella2.lua
+[2.217s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/params/nav2_params.yaml
+[2.217s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/maps/map051206.pgm
+[2.217s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/maps/map051206.yaml
+[2.217s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/rviz/nav2_ST.rviz
+[2.218s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/rviz/nav2_default_view.rviz
+[2.218s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/rviz/nav2_real_default.rviz
+[2.218s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/rviz/stellabot3.rviz
+[2.219s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/ament_index/resource_index/package_run_dependencies/choi_stella_cartographer
+[2.219s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/ament_index/resource_index/parent_prefix_path/choi_stella_cartographer
+[2.219s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/environment/ament_prefix_path.sh
+[2.219s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/environment/ament_prefix_path.dsv
+[2.220s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/environment/path.sh
+[2.220s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/environment/path.dsv
+[2.220s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/local_setup.bash
+[2.220s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/local_setup.sh
+[2.221s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/local_setup.zsh
+[2.221s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/local_setup.dsv
+[2.221s] -- Symlinking: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/package.dsv
+[2.243s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/ament_index/resource_index/packages/choi_stella_cartographer
+[2.244s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/cmake/choi_stella_cartographerConfig.cmake
+[2.244s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/cmake/choi_stella_cartographerConfig-version.cmake
+[2.245s] -- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/package.xml
+[2.250s] Invoked command in '/home/choi/robot_ws/build/choi_stella_cartographer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/robot_ws/install/opencv_tests:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --install /home/choi/robot_ws/build/choi_stella_cartographer

@@ -1,0 +1,11 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/ST_cartographer.launch.py
+-- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/cartographer_stella.launch.py
+-- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/occupancy_grid2.launch.py
+-- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/launch/stella_cartographer.launch.py
+-- Up-to-date symlink: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/world/empty.world
+-- Symlinking: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/world/model/ground_plane/model.config
+-- Symlinking: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/world/model/ground_plane/model.sdf
+-- Symlinking: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/world/model/sun/model.config
+-- Symlinking: /home/choi/robot_ws/install/choi_stella_cartographer/share/choi_stella_cartographer/world/model/sun/model.sdf

@@ -1,0 +1,93 @@
+[0.062s] Invoking command in '/home/choi/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake /home/choi/robot_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/image_geometry
+[0.492s] -- The C compiler identification is GNU 9.4.0
+[0.816s] -- The CXX compiler identification is GNU 9.4.0
+[0.892s] -- Check for working C compiler: /usr/bin/cc
+[1.018s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.021s] -- Detecting C compiler ABI info
+[1.125s] -- Detecting C compiler ABI info - done
+[1.137s] -- Detecting C compile features
+[1.138s] -- Detecting C compile features - done
+[1.142s] -- Check for working CXX compiler: /usr/bin/c++
+[1.228s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.229s] -- Detecting CXX compiler ABI info
+[1.321s] -- Detecting CXX compiler ABI info - done
+[1.343s] -- Detecting CXX compile features
+[1.344s] -- Detecting CXX compile features - done
+[1.379s] -- Found ament_cmake_python: 0.9.9 (/opt/ros/foxy/share/ament_cmake_python/cmake)
+[1.409s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[1.568s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.568s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.894s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.106s] -- Found OpenCV: /usr (found version "4.2.0") found components: calib3d core highgui imgproc 
+[2.127s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[2.322s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.404s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.730s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.793s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.424s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.082s] -- Found gtest sources under '/opt/ros/foxy/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[4.085s] -- Looking for pthread.h
+[4.560s] -- Looking for pthread.h - found
+[4.560s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[4.688s] -- Check if compiler accepts -pthread
+[4.834s] -- Check if compiler accepts -pthread - yes
+[4.835s] -- Found Threads: TRUE  
+[5.050s] -- Configuring done
+[5.062s] -- Generating done
+[5.063s] -- Build files have been written to: /home/choi/robot_ws/build/image_geometry
+[5.072s] Invoked command in '/home/choi/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake /home/choi/robot_ws/src/vision_opencv/image_geometry -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/choi/robot_ws/install/image_geometry
+[5.076s] Invoking command in '/home/choi/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --build /home/choi/robot_ws/build/image_geometry -- -j12 -l12
+[5.116s] [35m[1mScanning dependencies of target gtest_main[0m
+[5.116s] [35m[1mScanning dependencies of target image_geometry[0m
+[5.116s] [35m[1mScanning dependencies of target gtest[0m
+[5.456s] [ 11%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[5.461s] [ 22%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[10.598s] [ 33%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/pinhole_camera_model.cpp.o[0m
+[10.607s] [ 44%] [32mBuilding CXX object CMakeFiles/image_geometry.dir/src/stereo_camera_model.cpp.o[0m
+[12.487s] [ 55%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[12.697s] [ 55%] Built target gtest_main
+[13.588s] [ 66%] [32m[1mLinking CXX shared library libimage_geometry.so[0m
+[14.326s] [ 66%] Built target image_geometry
+[16.677s] [ 77%] [32m[1mLinking CXX static library libgtest.a[0m
+[16.763s] [ 77%] Built target gtest
+[16.779s] [35m[1mScanning dependencies of target image_geometry-utest[0m
+[16.835s] [ 88%] [32mBuilding CXX object CMakeFiles/image_geometry-utest.dir/test/utest.cpp.o[0m
+[19.500s] [100%] [32m[1mLinking CXX executable image_geometry-utest[0m
+[20.021s] [100%] Built target image_geometry-utest
+[20.038s] Invoked command in '/home/choi/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --build /home/choi/robot_ws/build/image_geometry -- -j12 -l12
+[20.082s] Invoking command in '/home/choi/robot_ws/build/image_geometry': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --install /home/choi/robot_ws/build/image_geometry
+[20.092s] -- Install configuration: ""
+[20.092s] -- Execute custom install script
+[20.092s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/environment/pythonpath.sh
+[20.104s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/environment/pythonpath.dsv
+[20.114s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py
+[20.124s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py
+[20.136s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/include/image_geometry/image_geometry/pinhole_camera_model.h
+[20.149s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/include/image_geometry/image_geometry/stereo_camera_model.h
+[20.161s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/include/image_geometry/image_geometry/visibility_control.hpp
+[20.171s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/ament_index/resource_index/package_run_dependencies/image_geometry
+[20.181s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/ament_index/resource_index/parent_prefix_path/image_geometry
+[20.191s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.sh
+[20.207s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/environment/ament_prefix_path.dsv
+[20.220s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/environment/path.sh
+[20.232s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/environment/path.dsv
+[20.247s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/local_setup.bash
+[20.261s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/local_setup.sh
+[20.273s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/local_setup.zsh
+[20.283s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/local_setup.dsv
+[20.293s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/package.dsv
+[20.304s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/ament_index/resource_index/packages/image_geometry
+[20.317s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_targets-extras.cmake
+[20.330s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.344s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig.cmake
+[20.357s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/cmake/image_geometryConfig-version.cmake
+[20.370s] -- Symlinking: /home/choi/robot_ws/install/image_geometry/share/image_geometry/package.xml
+[20.438s] Listing '/home/choi/robot_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry'...
+[20.438s] Compiling '/home/choi/robot_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/__init__.py'...
+[20.439s] Compiling '/home/choi/robot_ws/install/image_geometry/lib/python3.8/site-packages/image_geometry/cameramodels.py'...
+[20.443s] -- Installing: /home/choi/robot_ws/install/image_geometry/lib/libimage_geometry.so
+[20.444s] -- Set runtime path of "/home/choi/robot_ws/install/image_geometry/lib/libimage_geometry.so" to ""
+[20.444s] -- Installing: /home/choi/robot_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport.cmake
+[20.444s] -- Installing: /home/choi/robot_ws/install/image_geometry/share/image_geometry/cmake/export_image_geometryExport-noconfig.cmake
+[20.448s] Invoked command in '/home/choi/robot_ws/build/image_geometry' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/choi/gcamp_ros2_ws/install/py_topic_pkg:/home/choi/gcamp_ros2_ws/install/py_service_pkg:/home/choi/gcamp_ros2_ws/install/py_first_pkg:/home/choi/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy:/home/choi/colcon_ws/install/stella_teleop_bluetooth:/home/choi/colcon_ws/install/stella_teleop:/home/choi/colcon_ws/install/stella_camera /usr/bin/cmake --install /home/choi/robot_ws/build/image_geometry

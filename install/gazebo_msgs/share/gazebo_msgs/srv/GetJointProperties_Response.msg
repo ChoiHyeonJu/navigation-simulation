@@ -1,0 +1,1 @@
+/home/choi/robot_ws/build/gazebo_msgs/rosidl_cmake/srv/GetJointProperties_Response.msg

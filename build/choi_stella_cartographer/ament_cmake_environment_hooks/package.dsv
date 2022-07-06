@@ -1,0 +1,4 @@
+source;share/choi_stella_cartographer/local_setup.bash
+source;share/choi_stella_cartographer/local_setup.dsv
+source;share/choi_stella_cartographer/local_setup.sh
+source;share/choi_stella_cartographer/local_setup.zsh
