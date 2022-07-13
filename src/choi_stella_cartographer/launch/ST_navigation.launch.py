@@ -103,26 +103,6 @@ def generate_launch_description():
         #    'map_subscribe_transient_local', default_value='false',
         #    description='Whether to set the map subscriber QoS to transient local'),
 
-        DeclareLaunchArgument(
-            'node_tf2_fp2map', default_value='',
-            description='Top-level namespace'),
-
-        DeclareLaunchArgument(
-            'node_tf2_fp2link', default_value='',
-            description='Top-level namespace'),
-
-        DeclareLaunchArgument(
-            'node_tf2_fp2odom', default_value='',
-            description='Top-level namespace'),
-
-        DeclareLaunchArgument(
-            'node_tf2_fp2rightwheel', default_value='',
-            description='Top-level namespace'),
-
-        DeclareLaunchArgument(
-            'node_tf2_fp2leftwheel', default_value='',
-            description='Top-level namespace'),
-
         Node(
             package='nav2_controller',
             executable='controller_server',
@@ -178,7 +158,6 @@ def generate_launch_description():
             arguments=['-d', rviz_config_dir],
             parameters=[{'use_sim_time': use_sim_time }],
             output='screen',
-            #remappings=remappings
             ),
 
         ExecuteProcess(
@@ -187,47 +166,5 @@ def generate_launch_description():
         ),
         robot_state_publisher_node,
         spawn_entity,
-
-        Node(
-            name='tf2_ros_fp_link',
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            output='screen',
-            arguments=['0', '0', '0', '0.0', '0.0', '0.0', 'base_footprint', 'base_link'],
-        ),
-
-        Node(
-            name='tf2_ros_fp_map',
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            output='screen',
-            arguments=['0', '0', '0', '0.0', '0.0', '0.0', 'map', 'odom'],
-        ),
-
-        Node(
-            name='tf2_ros_fp_odom',
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            output='screen',
-            arguments=['0', '0', '0.1', '0.0', '0.0', '0.0', 'odom', 'base_footprint'],
-
-        ),
-
-        Node(
-            name='tf2_ros_fp_rightwheel',
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            output='screen',
-            arguments=['0', '0', '0', '0.0', '0.0', '0.0', 'base_link', 'front_right_wheel'],
-        ),
-
-        Node(
-            name='tf2_ros_fp_leftwheel',
-            package='tf2_ros',
-            executable='static_transform_publisher',
-            output='screen',
-            arguments=['0', '0', '0', '0.0', '0.0', '0.0', 'base_link', 'front_left_wheel'],
-        ),
-
 
     ])

@@ -250,7 +250,6 @@ map_server:
     yaml_filename: "map051206.yaml"
     topic_name : "map"
     frmae_id : "map"
-    #map_server topic : map
 
 map_saver:
   ros__parameters:
